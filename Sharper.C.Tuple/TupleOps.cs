@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Sharper.C
+namespace Sharper.C.Data
 {
-    public static class TupleOps
+    public static class TupleFn
     {
         public static Tuple<A, B> Pair<A, B>(A a, B b) => Tuple.Create(a, b);
 
