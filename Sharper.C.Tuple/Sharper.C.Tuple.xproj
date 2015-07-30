@@ -8,8 +8,6 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>6da4b099-b444-4d17-b257-23edc2c4fb1a</ProjectGuid>
     <RootNamespace>Sharper.C.Data</RootNamespace>
-    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
-    <OutputPath Condition="'$(OutputPath)'=='' ">..\..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <AssemblyName>Sharper.C.Tuple</AssemblyName>
